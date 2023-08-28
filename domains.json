@@ -1,0 +1,59 @@
+[
+  {
+    "domain": "https://3cx.com",
+    "blog": [
+      "https://www.3cx.com/blog/"
+    ],
+    "content": {
+      "title": "Version 18 Update 8 Final - The Recap",
+      "date": "August 24th, 2023"
+    },
+    "scraped": "2023-08-28"
+  },
+  {
+    "domain": "https://gradle.org",
+    "blog": [
+      "https://blog.gradle.org"
+    ],
+    "content": {
+      "title": "Simpler Kotlin DSL Property Assignment",
+      "date": "Jun 2023"
+    },
+    "scraped": "2023-08-28"
+  },
+  {
+    "domain": "https://universe.com",
+    "blog": [
+      "https://blog.universe.com"
+    ],
+    "content": {
+      "title": "Taqueando: Inside L.A.’s Newest All-You-Can-Eat Taco Fest",
+      "date": "May 31, 2019"
+    },
+    "scraped": "2023-08-28"
+  },
+  {
+    "domain": "https://keepass.info",
+    "blog": []
+  },
+  {
+    "domain": "https://upserve.com",
+    "blog": [
+      "https://upserve.com/blog/",
+      "https://www.lightspeedhq.com/blog/"
+    ],
+    "content": {
+      "title": "Upserve by Lightspeed is now Lightspeed Restaurant (U-Series)",
+      "date": "July 27, 2021"
+    },
+    "scraped": "2023-08-28"
+  },
+  {
+    "domain": "https://opendns.com",
+    "blog": []
+  },
+  {
+    "domain": "https://eloqua.com",
+    "error": "Request failed with status code 400"
+  }
+]

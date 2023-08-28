@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const inputFolder = './input';
-const outputFile = 'output.json';
+const outputFile = 'domains.json';
 
 const domains = [];
 
@@ -20,8 +20,11 @@ fs.readdir(inputFolder, (err, files) => {
     const inputFile = path.join(inputFolder, file);
 
     fs.readFileSync(inputFile, 'utf-8').split('\n').forEach(line => {
-      const domain = 'https://' + line.trim();
-      domains.push({ domain });
+      line = line.trim();
+      if (line) { // check if line is not empty
+        const domain = 'https://' + line;
+        domains.push({ domain });
+      }
     });
 
     processedFiles++;
